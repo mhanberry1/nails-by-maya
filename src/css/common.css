@@ -1,0 +1,16 @@
+@import url('fonts.css');
+
+:root {
+	--white: #fff;
+	--green: #9fafac;
+}
+
+body {
+	margin: 0;
+	background: var(--green);
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	background: var(--white);
+}

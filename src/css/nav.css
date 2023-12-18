@@ -1,0 +1,50 @@
+body {
+	padding-top: 103px;
+}
+
+nav {
+	height: 50px;
+	padding: 25px;
+	background: var(--white);
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	font-family: 'Noto Serif', serif;
+	border-bottom: 3px solid var(--green);
+
+	a {
+		text-decoration: none;
+		color: var(--green);
+		margin: 0 20px;
+	}
+
+	img {
+		height: 50px;
+	}
+
+	.desktop-nav {
+		max-width: 1500px;
+		margin: auto;
+	}
+
+	.socials {
+		position: fixed;
+		top: 10px;
+		right: 10px;
+
+		img {
+			height: 20px;
+		}
+
+		a {
+			margin: 0 5px;
+		}
+	}
+
+	@media(min-width: 1500px) {
+		.socials {
+			right: calc(50vw - 775px)
+		}
+	}
+}
+

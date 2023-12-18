@@ -1,0 +1,31 @@
+@import url("common.css");
+
+footer {
+	height: 110px;
+	color: var(--white);
+	text-align: right;
+	padding: 25px;
+	font-family: 'Noto Serif', serif;
+	max-width: 1500px;
+	margin: auto;
+
+	span {
+		display: inline-block;
+		width: 225px;
+		vertical-align: top;
+		text-align: left;
+		margin: 0 20px;
+
+		h3 {
+			margin-top: 0;
+		}
+
+		p {
+			margin: 0;
+		}
+
+		a {
+			color: var(--white);
+		}
+	}
+}
