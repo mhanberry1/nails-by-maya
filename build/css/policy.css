@@ -1,5 +1,11 @@
 @import url("common.css");
 
+nav {
+	.policy {
+		text-decoration: underline;
+	}
+}
+
 main{
 	text-align: center;
 	padding-top: 25px;
