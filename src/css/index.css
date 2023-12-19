@@ -1,5 +1,11 @@
 @import url("common.css");
 
+nav {
+	.home {
+		text-decoration: underline;
+	}
+}
+
 main {
 	background: var(--white);
 	text-align: center;
