@@ -8,13 +8,13 @@ main {
 		font-family: 'Corinthia', cursive;
 		font-size: 60px;
 		font-weight: normal;
-		color: var(--green);
+		color: var(--blue);
 	}
 
 	h2 {
 		font-family: 'Noto Serif', serif;
 		font-weight: normal;
-		color: var(--green);
+		color: var(--blue);
 		display: block;
 		margin: 0;
 	}
@@ -27,8 +27,8 @@ main {
 
 	img {
 		border-radius: 10px;
-		border-right: 3px solid var(--green);
-		border-bottom: 3px solid var(--green);
+		border-right: 3px solid var(--blue);
+		border-bottom: 3px solid var(--blue);
 		height: 150px;
 	}
 
@@ -57,9 +57,9 @@ main {
 
 	.info {
 		margin: 25px;
-		border: 1px solid var(--green);
-		border-right: 3px solid var(--green);
-		border-bottom: 3px solid var(--green);
+		border: 1px solid var(--blue);
+		border-right: 3px solid var(--blue);
+		border-bottom: 3px solid var(--blue);
 		display: inline-block;
 		padding: 20px;
 		padding-left: 25px;

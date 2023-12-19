@@ -10,11 +10,11 @@ nav {
 	top: 0;
 	width: 100vw;
 	font-family: 'Noto Serif', serif;
-	border-bottom: 3px solid var(--green);
+	border-bottom: 3px solid var(--blue);
 
 	a {
 		text-decoration: none;
-		color: var(--green);
+		color: var(--blue);
 		margin: 0 20px;
 	}
 

@@ -1,13 +1,15 @@
 @import url('fonts.css');
 
 :root {
+	--balck: #000;
 	--white: #fff;
-	--green: #9fafac;
+	--blue: rgba(159, 175, 172, 0.75);
+	--red: #8b0000;
 }
 
 body {
 	margin: 0;
-	background: var(--green);
+	background: var(--blue);
 	font-family: 'Montserrat', sans-serif;
 }
 
