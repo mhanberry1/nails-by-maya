@@ -1,44 +1,41 @@
 @import url("common.css");
-
-nav {
-	.policy {
-		text-decoration: underline;
-	}
+nav .policy {
+  text-decoration: underline;
 }
 
-main{
-	text-align: center;
-	padding-top: 25px;
+main {
+  text-align: center;
+  padding-top: 25px;
+}
 
-	h1 {
-		font-family: 'Corinthia', cursive;
-		font-size: 60px;
-		font-weight: normal;
-		color: var(--blue);
-	}
+main h1 {
+  font-family: 'Corinthia', cursive;
+  font-size: 60px;
+  font-weight: normal;
+  color: var(--blue);
+}
 
-	.info {
-		max-width: 700px;
-		margin: auto;
-		padding-bottom: 50px;
+main .info {
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 50px;
+}
 
-		h2 {
-			font-family: 'Noto Serif', serif;
-			font-weight: normal;
-			text-decoration: underline;
-		}
+main .info h2 {
+  font-family: 'Noto Serif', serif;
+  font-weight: normal;
+  text-decoration: underline;
+}
 
-		p {
-			text-align: left;
-		}
+main .info p {
+  text-align: left;
+}
 
-		b {
-			color: var(--red);
-		}
+main .info b {
+  color: var(--red);
+}
 
-		.note {
-			text-align: center;
-			margin: 50px;
-		}
-	}
+main .info .note {
+  text-align: center;
+  margin: 50px;
 }

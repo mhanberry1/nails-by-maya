@@ -1,0 +1,91 @@
+@import url("common.css");
+
+nav {
+	.about {
+		text-decoration: underline;
+	}
+}
+
+main {
+	text-align: center;
+	padding-top: 25px;
+
+	h1 {
+		font-family: 'Corinthia', cursive;
+		font-size: 60px;
+		font-weight: normal;
+		color: var(--blue);
+	}
+
+	h2 {
+		font-family: 'Noto Serif', serif;
+		font-weight: normal;
+		color: var(--blue);
+		display: block;
+		margin: 0;
+	}
+
+	h3 {
+		font-weight: normal;
+		text-decoration: underline;
+		margin: 0;
+	}
+
+	img {
+		border-radius: 10px;
+		border-right: 3px solid var(--blue);
+		border-bottom: 3px solid var(--blue);
+		height: 150px;
+	}
+
+	ul {
+		padding: 0;
+		list-style-type: none;
+		list-style-position: inside;
+	}
+
+	li::before {
+		content: '•';
+		padding-right: 10px;
+	}
+
+	.team, .bio {
+		max-width: 700px;
+		margin: auto;
+		text-align: left;
+	}
+
+	.pic {
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	.info {
+		margin: 25px;
+		border: 1px solid var(--blue);
+		border-right: 3px solid var(--blue);
+		border-bottom: 3px solid var(--blue);
+		display: inline-block;
+		padding: 20px;
+		padding-left: 25px;
+		border-radius: 10px;
+		vertical-align: middle;
+	}
+
+	.mika {
+		text-align: right;
+
+		.pic {
+			text-align: center;
+		}
+
+		.info {
+			text-align: left;
+		}
+	}
+
+	.bio {
+		padding: 25px;
+	}
+}

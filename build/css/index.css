@@ -1,17 +1,14 @@
 @import url("common.css");
-
-nav {
-	.home {
-		text-decoration: underline;
-	}
+nav .home {
+  text-decoration: underline;
 }
 
 main {
-	background: var(--white);
-	text-align: center;
-	padding: calc((100vh - 110px - 160px - 230px) / 2) 0;
+  background: var(--white);
+  text-align: center;
+  padding: calc((100vh - 110px - 160px - 230px) / 2) 0;
+}
 
-	img {
-		height: 230px;
-	}
+main img {
+  height: 230px;
 }
