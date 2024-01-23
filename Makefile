@@ -7,7 +7,7 @@ include:
 	python3 utils/include.py
 
 css: $(wildcard build/css/*.scss)
-	for file in build/css/*.scss; do \
+	for file in $^; do \
 		sassc --style expanded "$$file" "$${file%.scss}".css; \
 	done
 
