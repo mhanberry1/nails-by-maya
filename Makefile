@@ -7,8 +7,8 @@ include:
 	cp -R src/* build
 	python3 utils/include.py
 
-css: $(wildcard build/css/*.scss)
-	for file in $^; do \
+css: include
+	for file in $(wildcard build/css/*.scss); do \
 		sassc --style expanded "$$file" "$${file%.scss}".css; \
 	done
 
