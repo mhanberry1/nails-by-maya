@@ -3,6 +3,7 @@
 all: clean include css
 
 include:
+	mkdir build
 	cp -R src/* build
 	python3 utils/include.py
 
@@ -12,4 +13,4 @@ css: $(wildcard build/css/*.scss)
 	done
 
 clean:
-	rm -rf build/*
+	rm -rf build
