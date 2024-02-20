@@ -3,7 +3,7 @@
 all: clean include css
 
 include:
-	mkdir build
+	mkdir -p build
 	cp -R src/* build
 	python3 utils/include.py
 
@@ -13,7 +13,7 @@ css: include
 	done
 
 clean:
-	rm -rf build
+	rm -rf build/*
 
 install_ubuntu_build_deps:
 	sudo apt install sassc
