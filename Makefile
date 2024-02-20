@@ -14,3 +14,6 @@ css: include
 
 clean:
 	rm -rf build
+
+install_ubuntu_build_deps:
+	sudo apt install sassc
