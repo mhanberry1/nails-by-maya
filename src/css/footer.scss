@@ -1,7 +1,7 @@
 @import url("common.css");
 
 footer {
-	height: 110px;
+	min-height: 110px;
 	color: var(--white);
 	text-align: right;
 	padding: 25px;
@@ -17,7 +17,7 @@ footer {
 		margin: 0 20px;
 
 		h3 {
-			margin-top: 0;
+			margin: 0;
 		}
 
 		p {
@@ -26,6 +26,14 @@ footer {
 
 		a {
 			color: var(--white);
+		}
+	}
+
+	@media(max-width: 900px) {
+		text-align: center;
+
+		span {
+			margin: 10px;
 		}
 	}
 }
