@@ -46,8 +46,11 @@ nav {
 	}
 
 	@media(min-width: 1500px) {
+		padding-left: calc(50vw - 775px);
+		width: calc(100vw - 25px - (50vw - 775px));
+
 		.socials {
-			right: calc(50vw - 775px)
+			right: calc(50vw - 775px);
 		}
 	}
 
