@@ -15,4 +15,18 @@ body {
 
 main {
 	background: var(--white);
+
+	h1 {
+		font-family: 'Corinthia', cursive;
+		font-size: 60px;
+		font-weight: normal;
+		color: var(--blue);
+	}
+
+	@media(max-width: 500px) {
+		h1 {
+			font-size: 40px;
+			margin: 0;
+		}
+	}
 }
