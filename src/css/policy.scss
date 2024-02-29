@@ -20,7 +20,7 @@ main{
 	.info {
 		max-width: 700px;
 		margin: auto;
-		padding-bottom: 50px;
+		padding: 0 25px 50px 25px;
 
 		h2 {
 			font-family: 'Noto Serif', serif;
@@ -30,6 +30,8 @@ main{
 
 		p {
 			text-align: left;
+			width: fit-content;
+			margin: 15px auto;
 		}
 
 		b {
@@ -39,6 +41,18 @@ main{
 		.note {
 			text-align: center;
 			margin: 50px;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.info {
+			h2 {
+				font-size: 18px;
+			}
+
+			p {
+				text-align: center;
+			}
 		}
 	}
 }
