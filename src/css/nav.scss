@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-	height: 50px;
+	height: 85px;
 	width: calc(100vw - 50px);
 	padding: 25px;
 	margin: auto;
@@ -55,7 +55,6 @@ nav {
 	}
 
 	@media(max-width: 900px) {
-		height: 50px;
 		width: 100vw;
 		padding: 0;
 		overflow: hidden;
@@ -79,6 +78,9 @@ nav {
 			margin: 0;
 			text-align: center;
 			width: 100%;
+			max-height: calc(100vh - 88px);
+			overflow: scroll;
+			display: block;
 
 			a {
 				margin: 0;
@@ -109,4 +111,13 @@ nav {
 			}
 		}
 	}
+}
+
+#announcement {
+	font-family: 'Noto Serif', serif;
+	color: var(--white);
+	background: var(--gray);
+	text-align: center;
+	line-height: 35px;
+	white-space: nowrap;
 }
