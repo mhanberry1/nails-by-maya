@@ -15,12 +15,18 @@ main{
 		font-size: 60px;
 		font-weight: normal;
 		color: var(--blue);
+
+		&.secondary {
+			color: var(--white);
+			background: var(--med-gray);
+			padding-top: 7px;
+		}
 	}
 
-	.info {
+	.policy-info {
 		max-width: 700px;
 		margin: auto;
-		padding: 0 25px 50px 25px;
+		padding: 0 25px 25px 25px;
 
 		h2 {
 			font-family: 'Noto Serif', serif;
@@ -44,8 +50,37 @@ main{
 		}
 	}
 
+	.client-info {
+		padding: 20px 25px 50px 25px;
+		text-align: left;
+
+		b {
+			color: var(--red);
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		ul {
+			padding: 0;
+			list-style-type: none;
+			list-style-position: inside;
+
+			li {
+				margin: 20px 0 20px 15px;
+
+				&::before {
+					content: '•';
+					padding-right: 10px;
+					margin-left: -15px;
+				}
+			}
+		}
+	}
+
 	@media (max-width: 500px) {
-		.info {
+		.policy-info {
 			h2 {
 				font-size: 18px;
 			}
