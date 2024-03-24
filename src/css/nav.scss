@@ -28,6 +28,21 @@ nav {
 		height: 50px;
 	}
 
+	#announcement {
+		font-family: 'Noto Serif', serif;
+		color: var(--white);
+		background: var(--gray);
+		text-align: center;
+		line-height: 35px;
+		white-space: nowrap;
+
+		a {
+			color: white;
+			margin: 0;
+			text-decoration: underline;
+		}
+	}
+
 	#menu-button {
 		display: none;
 	}
@@ -112,13 +127,4 @@ nav {
 			}
 		}
 	}
-}
-
-#announcement {
-	font-family: 'Noto Serif', serif;
-	color: var(--white);
-	background: var(--gray);
-	text-align: center;
-	line-height: 35px;
-	white-space: nowrap;
 }

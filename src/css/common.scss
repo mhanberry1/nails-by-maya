@@ -9,6 +9,10 @@
 	--red: #8b0000;
 }
 
+a:hover {
+	cursor: pointer;
+}
+
 body {
 	margin: 0;
 	background: var(--blue);
