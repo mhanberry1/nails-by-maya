@@ -22,7 +22,7 @@ export const createRoutes = () => {
 		a.removeAttribute("href")
 	})
 
-	addEventListener("popstate", ({ target }) => go(target.window.location.href))
+	addEventListener("popstate", ({ state }) => go(state.href))
 
 	return routes
 }
@@ -39,5 +39,7 @@ export const go = href => {
 		? $(link.hash)?.scrollIntoView()
 		: window.scroll(0, 0)
 	
-	history.pushState({}, "", href)
+	if (location.href == href) return
+
+	history.pushState({ href }, "", href)
 }
