@@ -23,7 +23,7 @@ main{
 		}
 	}
 
-	.policy-info {
+	.policy-info, .client-info {
 		max-width: 700px;
 		margin: auto;
 		padding: 0 25px 25px 25px;
@@ -44,6 +44,10 @@ main{
 			color: var(--red);
 		}
 
+		a {
+			text-decoration: none;
+		}
+
 		.note {
 			text-align: center;
 			margin: 50px;
@@ -53,14 +57,6 @@ main{
 	.client-info {
 		padding: 20px 25px 50px 25px;
 		text-align: left;
-
-		b {
-			color: var(--red);
-		}
-
-		a {
-			text-decoration: none;
-		}
 
 		ul {
 			padding: 0;
