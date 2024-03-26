@@ -14,7 +14,6 @@ main {
 		width: 50px;
 		position: absolute;
 		left: calc(50vw - 25px);
-		top: 300px;
 		z-index: 0;
 		opacity: 1;
 		animation: fade 2s linear infinite;
@@ -23,14 +22,14 @@ main {
 			0%,100% {
 				opacity: 0;
 				width: 50px;
-				top: 300px;
+				top: 350px;
 				left: calc(50vw - 25px);
 			}
 
 			50% {
 				opacity: 1;
 				width: 60px;
-				top: 294px;
+				top: 344px;
 				left: calc(50vw - 30px);
 			}
 		}
