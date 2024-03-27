@@ -19,7 +19,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 
 	main, footer {
-		transition: 1s;
+		transition: opacity 1s;
 		opacity: 1;
 	}
 
@@ -33,6 +33,7 @@ body {
 
 main {
 	background: var(--white);
+	min-height: calc(100vh - 450px);
 
 	h1 {
 		font-family: 'Corinthia', cursive;
