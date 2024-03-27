@@ -35,8 +35,13 @@ export const go = href => {
 
 	link.href = href
 
-	$('head').innerHTML = routes[href].querySelector('head').innerHTML
-	$('main').innerHTML = routes[href].querySelector('main').innerHTML
+	$('body').classList.add('loading')
+
+	setTimeout(() => {
+		$('head').innerHTML = routes[href].querySelector('head').innerHTML
+		$('main').innerHTML = routes[href].querySelector('main').innerHTML
+		$('body').classList.remove('loading')
+	}, 500)
 
 	createRoutes()
 

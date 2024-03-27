@@ -3,10 +3,10 @@
 footer {
 	min-height: 270px;
 	color: var(--white);
+	background: var(--blue);
 	text-align: right;
 	padding: 25px;
 	font-family: 'Noto Serif', serif;
-	max-width: 1500px;
 	margin: auto;
 
 	span {
@@ -27,6 +27,10 @@ footer {
 		a {
 			color: var(--white);
 		}
+	}
+
+	.content {
+		max-width: 1500px;
 	}
 
 	@media(max-width: 900px) {

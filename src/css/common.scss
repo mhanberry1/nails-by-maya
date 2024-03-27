@@ -15,8 +15,20 @@ a:hover {
 
 body {
 	margin: 0;
-	background: var(--blue);
+	background: var(--white);
 	font-family: 'Montserrat', sans-serif;
+
+	main, footer {
+		transition: 0.5s;
+		opacity: 1;
+	}
+
+	&.loading {
+
+		main, footer {
+			opacity: 0;
+		}
+	}
 }
 
 main {
@@ -37,3 +49,4 @@ main {
 		}
 	}
 }
+
