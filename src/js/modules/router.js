@@ -40,10 +40,11 @@ export const go = href => {
 	setTimeout(() => {
 		$('head').innerHTML = routes[href].querySelector('head').innerHTML
 		$('main').innerHTML = routes[href].querySelector('main').innerHTML
-		$('body').classList.remove('loading')
 
 		createRoutes()
-	}, 1000)
+	}, 500)
+
+	setTimeout(() => $('body').classList.remove('loading'), 800)
 
 	link.hash
 		? $(link.hash)?.scrollIntoView()
