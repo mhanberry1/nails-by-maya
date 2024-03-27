@@ -7,6 +7,7 @@ export const createRoutes = () => {
 
 	$$('a').forEach( async a => {
 		if (!a.href) return
+		if (!a.href.includes(`${location.protocol}//${location.hostname}`)) return
 
 		const href = a.href
 		const prev = a.onclick
@@ -18,7 +19,6 @@ export const createRoutes = () => {
 		}
 
 		if (routes[href]) return
-		if (!href.includes(`${location.protocol}//${location.hostname}`)) return
 
 		const response = await fetch(href)
 
