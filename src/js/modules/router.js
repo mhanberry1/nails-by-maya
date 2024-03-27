@@ -43,7 +43,7 @@ export const go = href => {
 		$('body').classList.remove('loading')
 
 		createRoutes()
-	}, 500)
+	}, 1000)
 
 	link.hash
 		? $(link.hash)?.scrollIntoView()
