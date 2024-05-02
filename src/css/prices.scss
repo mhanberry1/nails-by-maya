@@ -12,20 +12,12 @@ main {
 	margin: auto;
 
 	.group {
-		font-family: 'Noto Serif', serif;
 		border: 1px solid var(--blue);
 		border-radius: 10px;
 		margin: 40px 0;
 
-		h2 {
-			margin: 0;
-			padding: 20px;
-			text-align: center;
-			color: white;
-			background: var(--blue);
-		}
-
 		.prices {
+			font-family: 'Noto Serif', serif;
 			display: flex;
 			flex-direction: column;
 			grid-gap: 40px;
