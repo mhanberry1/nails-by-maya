@@ -1,0 +1,46 @@
+@import url("common.css");
+
+nav {
+	.prices {
+		text-decoration: underline;
+	}
+}
+
+main {
+	padding: 20px;
+	max-width: 800px;
+	margin: auto;
+
+	.group {
+		font-family: 'Noto Serif', serif;
+		border: 1px solid var(--blue);
+		border-radius: 10px;
+		margin: 40px 0;
+
+		h2 {
+			margin: 0;
+			padding: 20px;
+			text-align: center;
+			color: white;
+			background: var(--blue);
+		}
+
+		.prices {
+			display: flex;
+			flex-direction: column;
+			grid-gap: 40px;
+			padding: 40px;
+
+			.row {
+				display: flex;
+				justify-content: space-between;
+				grid-gap: 20px;
+
+				.parenthesis {
+					font-size: 0.8em;
+					white-space: nowrap;
+				}
+			}
+		}
+	}
+}
