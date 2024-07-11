@@ -71,9 +71,13 @@ main {
 		border-radius: 10px;
 		vertical-align: middle;
 		width: fit-content;
+
+		@media (min-width: 820px) {
+			max-width: calc(100% - 300px);
+		}
 	}
 
-	.mika {
+	.kaori {
 		text-align: right;
 
 		.pic {
@@ -101,7 +105,7 @@ main {
 			}
 		}
 
-		.mika {
+		.kaori {
 			display: flex;
 			flex-direction: column-reverse;
 			align-items: end;
